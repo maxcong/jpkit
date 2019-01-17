@@ -1,8 +1,8 @@
 name: jpkit
 description: flutter plugin for jiupai.ren project development kit
 version: 0.0.1
-author: max.cong
-homepage:
+author: Max.cong <congyushuai@gmail.com>
+homepage: https://github.com/maxcong/jpkit
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
