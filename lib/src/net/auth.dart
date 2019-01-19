@@ -5,6 +5,8 @@ import 'package:jpkit/src/misc/notification_center.dart';
 import 'package:jpkit/src/net/request.dart';
 import 'package:jpkit/src/net/client.dart';
 
+const String NotificationKeyJPAuthorizationIsInitialize = "JPAuthorization.isInitialize";
+const String NotificationKeyJPAuthorizationIsAuthenticated = "JPAuthorization.isAuthenticated";
 
 ///
 /// OAuth 2.0 验证授权操作类
