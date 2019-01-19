@@ -16,7 +16,8 @@ export 'package:jpkit/src/db/db.dart';                    // 数据库封装
 
 // /// 其他关键工具
 export 'package:jpkit/src/misc/notification_center.dart'; // 广播
-export 'package:jpkit/src/misc/observable.dart';          // 观察者模式，基于rxdart的简易化包装
+export 'package:jpkit/src/bloc/observable.dart';          // 观察者模式，基于rxdart的简易化包装
+export 'package:jpkit/src/bloc/bloc_provider.dart';          // 观察者模式，基于rxdart的简易化包装
 
 // /// 其他辅助工具
 export 'package:jpkit/src/misc/color.dart';
