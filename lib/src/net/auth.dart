@@ -68,7 +68,7 @@ class JPAuthorization {
   /// 是否已经验证登录身份
   bool isAuthenticated() => (token != null);
 
-  static authenticate({String username, String password}) {
+  void authenticate({String username, String password, authCallback(bool isAuthed, Error error)}) {
     // assert
     assert(JPConfig.apiUrl != null);
     assert(JPConfig.authPath != null);
@@ -94,6 +94,9 @@ class JPAuthorization {
       } else {
         JPOAuthToken token = JPOAuthToken(response.data);
         JPAuthorization.instance.token = token;
+      }
+      if(authCallback != null) {
+        authCallback(isAuthenticated(), error);
       }
     });
   }
