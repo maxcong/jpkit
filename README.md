@@ -1,6 +1,6 @@
 # jpkit
 
-flutter plugin for jiupai.ren project development kit
+A new flutter plugin project.
 
 ## Getting Started
 

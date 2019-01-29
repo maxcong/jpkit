@@ -23,11 +23,7 @@ export 'package:jpkit/src/bloc/bloc_provider.dart';          // 观察者模式�
 export 'package:jpkit/src/misc/color.dart';
 
 class Jpkit {
-  jpkit() {
-    // return Future.value("jpkit");
-  }
-
-  Future<String> fetch() async {
-    return Future.value("jpkit");
+  Future<String> platformVersion() async {
+    return Future.value("1.0.0");
   }
 }

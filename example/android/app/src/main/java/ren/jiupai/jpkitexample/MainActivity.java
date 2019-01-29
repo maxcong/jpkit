@@ -1,4 +1,4 @@
-package com.huoban.jpkitexample;
+package ren.jiupai.jpkitexample;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

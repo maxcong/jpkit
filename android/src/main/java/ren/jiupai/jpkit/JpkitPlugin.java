@@ -1,4 +1,4 @@
-package com.huoban.jpkit;
+package ren.jiupai.jpkit;
 
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;

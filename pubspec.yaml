@@ -1,24 +1,24 @@
 name: jpkit
-description: flutter plugin for jiupai.ren project development kit
+description: A new flutter plugin project.
 version: 0.0.1
-author: Max.cong <congyushuai@gmail.com>
-homepage: https://github.com/maxcong/jpkit
+author:
+homepage:
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.0.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://www.dartlang.org/tools/pub/pubspec
   dio: ^1.0.13
   rxdart: ^0.20.0
   shared_preferences: ^0.4.3
   objectdb_flutter: ^0.0.4
   path_provider: ^0.4.1
-  
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
 # The following section is specific to Flutter.
 flutter:
   # This section identifies this Flutter project as a plugin project.
